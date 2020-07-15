@@ -3611,6 +3611,13 @@ define-property@^2.0.2:
     is-descriptor "^1.0.2"
     isobject "^3.0.1"
 
+dehumanize-date@^2.0.1:
+  version "2.6.2"
+  resolved "https://registry.yarnpkg.com/dehumanize-date/-/dehumanize-date-2.6.2.tgz#605291465f0f2bafbfc9ba9ff5845927b35075f4"
+  integrity sha512-Fxxt8zwKPTTMq7fLwXPK+QHWaiuTClNAPjCEJnlUolL00JPPus11QAs47l9iL6E3tNIeS9GiVcddqrBjM/z7kw==
+  dependencies:
+    is-leap-year "^0.1.0"
+
 del@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/del/-/del-4.1.1.tgz#9e8f117222ea44a31ff3a156c049b99052a9f0b4"
@@ -5575,6 +5582,11 @@ is-glob@^4.0.0, is-glob@^4.0.1, is-glob@~4.0.1:
   dependencies:
     is-extglob "^2.1.1"
 
+is-leap-year@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/is-leap-year/-/is-leap-year-0.1.0.tgz#e3ee04508d878c3c68a5012361c5b806d1e0fbeb"
+  integrity sha1-4+4EUI2HjDxopQEjYcW4BtHg++s=
+
 is-number@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/is-number/-/is-number-3.0.0.tgz#24fd6201a4782cf50561c810276afc7d12d71195"
@@ -7223,6 +7235,11 @@ obuf@^1.0.0, obuf@^1.1.2:
   resolved "https://registry.yarnpkg.com/obuf/-/obuf-1.1.2.tgz#09bea3343d41859ebd446292d11c9d4db619084e"
   integrity sha512-PX1wu0AmAdPqOL1mWhqmlOd8kOIZQwGZw6rh7uby9fTc5lhaOWFLX3I6R1hrF9k3zUY40e6igsLGkDXK92LJNg==
 
+occasion@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/occasion/-/occasion-1.0.0.tgz#4f6a84e0475bea2d4c2e9a8a9408cf95250a8b00"
+  integrity sha1-T2qE4Edb6i1MLpqKlAjPlSUKiwA=
+
 on-finished@~2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/on-finished/-/on-finished-2.3.0.tgz#20f1336481b083cd75337992a16971aa2d906947"
@@ -7593,6 +7610,11 @@ performance-now@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/performance-now/-/performance-now-2.1.0.tgz#6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
   integrity sha1-Ywn04OX6kT7BxpMHrjZLSzd8nns=
+
+picker@^0.1.4:
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/picker/-/picker-0.1.4.tgz#101b890d34dc387823236af9ba7067660b48d9e8"
+  integrity sha1-EBuJDTTcOHgjI2r5unBnZgtI2eg=
 
 picomatch@^2.0.4, picomatch@^2.0.7:
   version "2.2.1"
@@ -8438,7 +8460,7 @@ prompts@^2.0.1:
     kleur "^3.0.3"
     sisteransi "^1.0.4"
 
-prop-types@^15.6.2, prop-types@^15.7.2:
+prop-types@^15.5.8, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -8603,6 +8625,15 @@ react-app-polyfill@^1.0.6:
     raf "^3.4.1"
     regenerator-runtime "^0.13.3"
     whatwg-fetch "^3.0.0"
+
+react-date@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/react-date/-/react-date-2.0.0.tgz#bb2c250ce3f2baf9acb653606ea601d3e31937ad"
+  integrity sha1-uywlDOPyuvmstlNgbqYB0+MZN60=
+  dependencies:
+    dehumanize-date "^2.0.1"
+    occasion "^1.0.0"
+    prop-types "^15.5.8"
 
 react-dev-utils@^10.2.1:
   version "10.2.1"
